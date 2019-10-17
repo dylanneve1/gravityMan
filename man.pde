@@ -20,6 +20,10 @@ class Man {
       if(key == 'a') {
         manX += mhand.takeStep(-1);
       }
+      if(key == 'w') {
+        println("Man started jump");
+        mhand.manIsJumping = true;
+      }
     }
   }
 }
